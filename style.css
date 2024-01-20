@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500;600;700&display=swap');
+
+@font-face {
+    font-family: nue;
+    src: url(components/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: Newyork;
+    src: url(components/NewYork\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: nue2;
+    src: url(components/NeueMontreal-Light.otf);
+}
+
+@font-face {
+    font-family: gucci;
+    src: url(components/Granjon.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+/*#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50% , -50%);
+}*/
+
+#page1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+
+#page-content{
+    position: relative;
+    transition: 0.3s linear;
+    font-family: nue2;
+    
+
+
+       nav{
+           position: relative;
+           z-index: 2;
+           display: flex;
+           align-items: center;
+           padding: 1vw;
+           text-transform: uppercase;
+           cursor: pointer;
+
+              h4{
+                margin-left: 6vw;
+                  
+
+                      span, i{
+                        transform: rotate(60deg);
+                      }
+              }
+       }
+}
+
+#icon{
+    position: absolute;
+    left: 90vw;
+    top: 2vw;
+       
+      i{
+        padding-right: 35px;
+        cursor: pointer;
+        font-size: 1.2vw;
+      }
+}
+
+#btext{
+    position: absolute;
+    display: block;
+    top: 12vw;
+    left: 2vw;
+    font-family: nue;
+    font-size: 13vw;
+    text-transform: uppercase;
+    line-height: 9vw;
+
+
+          span{
+            position: absolute;
+            left: 33vw;
+            top: 22vw;
+            font-family: nue1;
+            font-size: 1vw;
+            line-height: normal;
+          }
+}
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+#content-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 6vw;
+    margin-top: 3vw;
+     
+}
+
+#imgs{
+    margin-top: 4vw;
+    margin-left: 2vw;
+        
+       img{
+        height: 50vw;
+       }
+}
+
+button{
+    position: absolute;
+    top: 100vw;
+    left: 12vw;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer; 
+}
+
+#rtext{
+    margin-left: 40vw;
+    margin-top: -50vw;
+    font-family: Newyork;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+#btntext{
+    font-size: 3.5vw;
+    font-family: nue2;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vw;
+
+
+        p{
+            font-size: 1vw;
+            margin-top: 2vw;
+        }
+           a{
+            font-size: 0.75vw;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: black;
+           }
+
+
+}
+
+#page3{
+    height: 100vh;
+    max-width: 100%;
+    background-color: #FFFFFF;
+
+      video{
+        position: relative;
+        margin-left: 57vw;
+        margin-top: 12vw;
+        height: 50vw;
+      }
+
+         h5{
+            position: absolute;
+            top: 120vw;
+            left: 1vw;
+            font-size: 10vw;
+            font-family: nue2;
+         }
+}
+
+#photo{
+    height: 25vw;
+    position: absolute;
+    top: 140vw;
+    left: 1vw;
+    display: flex;
+    gap: 1vw;
+    cursor: pointer;
+}
+
+#page4{
+    height: 100vh;
+    max-width: 100%;
+    background-color: #000000;
+
+}
+
+#wrapper{
+    position: absolute;
+    top: 170vw;
+    height: 30vw;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#wrapper-info{
+    margin-left: 5vw;
+    margin-top: 2vw;
+    font-family: poppins, sans-serif;
+    font-size: 2vw;
+
+}
+
+#right-info{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 70vw;
+     
+      img{
+        height: 27vw;
+        
+      }
+}
+
+#roww{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 70px;
+    gap: 10vh;
+    
+    
+}
+
+#info-row{
+    line-height: 5vw;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+#info-row2{
+    line-height: 5vw;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#huge{
+    position: absolute;
+    font-family: nue;
+    text-transform: uppercase;
+    left: 30vw;
+    font-size: 15vw;
+    bottom: 2vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    line-height: 10vw;
+       
+       h5{
+         text-shadow: 2px 4px 4px rgba(97, 98, 101, 0.6);
+       }
+
+}
+
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: all ease 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+      h1{
+        font-family: nue;
+        font-size: 10vw;
+        position: absolute;
+        opacity: 0;
+        color: black;
+        animation-name: load;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-timing-function: linear;
+      }
+}
+
+#loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+
+#loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+
+@keyframes load {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+
+    90%{
+        opacity: 1;
+    }
+      
+    100%{
+       opacity: 0;
+    }
+}
+
+
+
+
+
